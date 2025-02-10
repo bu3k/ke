@@ -1,0 +1,25 @@
+<div class="invitation">
+    <h1>NING NING will You Be My Valentine?</h1>
+    <p> I'm here to abduct you into the world of love, to the garden of blue forget me nots. Can I get the honor of asking you to be my valentine?</p>
+  
+    
+    
+    <a href="#" class="btn" onclick="reply()">Yes, I'd love to!</a>
+    <p>or</p>
+    <a href="#" class="btn" id="noButton">No, I want to crush your heart to a million pieces...</a>
+</div>
+
+<script>
+    function reply() {
+        alert("Can't wait to spend Valentine's Day with you NingNing!");
+    }
+
+    document.getElementById("noButton").addEventListener("click", function() {
+        var cuteAsk = confirm("BROSKI please please pleaseeeeee! Would you reconsider?");
+        if (cuteAsk) {
+            alert("Wooohooooo! Thank you.");
+        } else {
+            alert("Say yes you stupid !!!");
+        }
+    });
+</script>
